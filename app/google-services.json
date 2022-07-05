@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "759875359390",
+    "project_id": "bring-popcorn",
+    "storage_bucket": "bring-popcorn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759875359390:android:e4ad25d6a7845e7189a18f",
+        "android_client_info": {
+          "package_name": "com.cesfuencarral.bringpopcorn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759875359390-3vj9kkc9hcjs8pv02uvhd4cgvq3ftg55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAin4rXC5XK-73tePD8fHu9VqhvdlvHwKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759875359390-3vj9kkc9hcjs8pv02uvhd4cgvq3ftg55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

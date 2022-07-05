@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthActivity">
+
+    <LinearLayout
+        android:id="@+id/authLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="357dp"
+            android:layout_height="212dp"
+            android:text="@string/login"
+            android:textAlignment="center"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            app:errorEnabled="true"
+            app:counterEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pssw"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            app:counterEnabled="true"
+            app:counterMaxLength="6"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="206dp"
+            android:layout_height="62dp"
+            android:text="Entrar" />
+
+        <Button
+            android:id="@+id/signbtn"
+            android:layout_width="206dp"
+            android:layout_height="62dp"
+            android:text="Registrarse" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="9dp"
+            android:text="inicia sesión con " />
+
+        <Button
+            android:id="@+id/googlebtn"
+            android:layout_width="191dp"
+            android:layout_height="48dp"
+            android:text="Google" />
+
+        <TextView
+            android:id="@+id/forgottv"
+            android:layout_width="185dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/forgot"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#2B2B2B"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
